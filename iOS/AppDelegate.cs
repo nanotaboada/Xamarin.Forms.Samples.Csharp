@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using Foundation;
+﻿using Foundation;
 using UIKit;
 
 namespace Xamarin.Forms.Samples.Csharp.iOS
@@ -12,8 +8,7 @@ namespace Xamarin.Forms.Samples.Csharp.iOS
 	{
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
-			global::Xamarin.Forms.Forms.Init();
-
+			Forms.Init();
 			LoadApplication(new App());
 
 			return base.FinishedLaunching(app, options);

@@ -1,6 +1,4 @@
-﻿using Xamarin.Forms;
-
-namespace Xamarin.Forms.Samples.Csharp
+﻿namespace Xamarin.Forms.Samples.Csharp
 {
 	public partial class LoginPage : ContentPage
 	{
